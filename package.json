@@ -1,0 +1,19 @@
+{
+  "name": "airlineboard",
+  "version": "1.0.0",
+  "description": "Flight Board",
+  "main": "musiqBoard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onetimefixation/musicFlightBoard.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onetimefixation/musicFlightBoard/issues"
+  },
+  "homepage": "https://github.com/onetimefixation/musicFlightBoard#readme"
+}
