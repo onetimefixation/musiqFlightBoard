@@ -4,7 +4,7 @@
   "description": "Flight Board",
   "main": "musiqBoard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node purgeme.js"
   },
   "repository": {
     "type": "git",
