@@ -1,0 +1,84 @@
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  background-color: black;
+  background-position: center top;
+  background-image: url("qfLogo.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.board {
+  padding-top: 100px; /* adjust the value to create space between the image and h1 */
+}
+
+.board h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.board-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.board-table th,
+.board-table td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.board-table th {
+  background-color: #f70000;
+}
+
+.board-table td span.random {
+  display: inline-block;
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.board-table td span.random.random {
+  display: inline-block;
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.random {
+  display: inline-block;
+  animation: rotate 0.3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.board-table td span.random-spin {
+  display: inline-block;
+  animation-name: spin;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
