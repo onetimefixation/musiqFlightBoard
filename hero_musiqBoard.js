@@ -2,12 +2,8 @@
 const apiUrl = "newboardData.json";
 const flights = [];
 
-
-
-
-
-//fetch(apiUrl)
-fetch(apiUrl, { mode: "no-cors" })
+//fetch(apiUrl, { mode: "no-cors" })
+fetch(apiUrl)
 .then(response => {
   if (!response.ok) {
     throw new Error(`Network response was not OK. Status code: ${response.status}, Status text: ${response.statusText}`);
